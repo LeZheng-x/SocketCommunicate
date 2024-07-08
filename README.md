@@ -1,11 +1,15 @@
 # SocketCommunicate
- Communication within LAN based on socket with c++ 17 and cmake project.  
+ Communication within LAN based on socket with c++ 17 and cmake project.Also with python project.  
 This simulates communication within the LAN through multi-threading and encapsulates Socket usage into classes. After configuration, users can only focus on the use of receiving and sending functions.
 # How to run 
+[c++]:   
 mkdir build  
 cd build  
 cmake ..  
-./socket  
+./socket
+
+[python]:  
+python **.py
 
 # How to configure 
 1.Configure your port and IP address in the Socket.h file  
